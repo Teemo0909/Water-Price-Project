@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="mainc.css">
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="">จำนวนขวดน้ำ : </label>
+            <input type="text" name="" id="Water">
+        </div>
+    </form>
+    
+    <!-- จำนวนโหล -->
+    <div>
+        <label for="" id="ResultDozen"></label>
+    </div>
+
+    <!-- ราคาโหล -->
+    <div>
+        <label for="" id="ResultDozenPrice"></label>
+    </div>
+        
+    <!-- จำนวนที่เหลือ -->
+    <div>
+        <label for="" id="ResultRemain"></label>
+    </div>
+        
+    <!-- ราคาจำนวนที่เหลือ -->
+    <div>
+        <label for="" id="ResultRemainPrice"></label>
+    </div>
+        
+    <!-- ราคายังไม่รวมภาษี -->
+    <div>
+        <label for="" id="ResultNoTax"></label>
+    </div>
+    
+    <!-- ราคาภาษีของสินค้า -->
+    <div>
+        <label for="" id="ResultTax"></label>
+    </div>
+    
+    <!-- ราคาทั้งหมด -->
+    <div>    
+        <label for="" id="Result"></label>
+    </div>
+
+
+    <span class="Left">
+        <button onclick="computerData()">ราคา</button>
+    </span>
+    <span>
+        <button onclick="Reset()">ยกเลิก</button>
+    </span>
+
+    <script src="main.js"></script>
+</body>
+</html>
